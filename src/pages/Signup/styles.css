@@ -1,0 +1,9 @@
+.container-form{
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+    flex-direction: column;
+}
+.container-buttons{
+    display: flex;
+}

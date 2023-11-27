@@ -1,0 +1,109 @@
+.container-main {
+  background-image: url('https://i.imgur.com/zAca03a.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.panel{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: linear-gradient(#411616, #683B3B);
+  padding: 1rem 0;
+  margin: 2rem;
+}
+
+.right-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.left-side{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Time de Personagens */
+.character-selected-area {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+.character-selected{
+  display: flex;
+}
+.character-selected-icon{
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  margin: 0 0.4rem;
+
+}
+.character-selected-desc{
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+/* Usuario */
+.user-selected-area {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+.user-selected-icon{
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+}
+.profile-desc{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0 1rem;
+}
+.profile-linha{
+  display: flex;
+}
+.profile-desc-title{
+  display: flex;
+  font-weight: bold;
+  margin-right: 1rem ;
+}
+.profile-structure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Personagens */
+.characters-filter{
+  display: flex;
+  justify-content:space-between;
+  margin: 0.5rem;
+}
+.character{
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 80px;
+  height: 80px;
+  margin: 0 0.4rem;
+  transition: 0.3s;
+}
+.character:hover{
+  width: 85px;
+  height: 85px;
+
+}
+.characters-choose-line{
+  margin: 0.5rem 0.4rem;
+}

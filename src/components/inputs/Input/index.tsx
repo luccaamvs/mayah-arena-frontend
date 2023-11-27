@@ -6,12 +6,13 @@ export const Input: React.FC<InputProps> = ({
     placeholder,
     id,
     name,
-    type
+    type,
+    handle
 }) => {
     return(
         <label htmlFor={id}>
             {labelText}
-            <input placeholder={placeholder} type={type} name={name} id={id} />
+            <input onChange={handle} placeholder={placeholder} type={type} name={name} id={id} />
         </label>
     )
 }

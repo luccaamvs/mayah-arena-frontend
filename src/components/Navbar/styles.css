@@ -1,0 +1,24 @@
+/* Botões de Navegação */
+.container-botoes{
+    display: flex;
+    justify-content: space-around;
+  }
+  .botoes{
+    width: fit-content;
+  }
+  .botao-topo{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0px 10px;
+    transition: 0.3s;
+  }
+  .botao-topo:hover{
+    background-color: #000000;
+  }
